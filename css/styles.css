@@ -1,0 +1,27 @@
+body {
+
+  background-color: grey;
+
+}
+
+span {
+
+  font-size: 2rem;
+  color: white;
+
+}
+
+.list-inline > li {
+
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 110px;
+
+
+}
+
+.nav-tabs.nav-justified > li > a {
+
+  border-bottom: none;
+
+}
