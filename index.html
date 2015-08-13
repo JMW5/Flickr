@@ -12,39 +12,42 @@
     <!--My Custom Style Sheet-->
     <link rel="stylesheet" href="css/styles.css">
 
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="flickr.js"></script>
+
   </head>
   <body>
 
     <div class="container text-center">
       <h1>Flickr Project</h1>
+      <p>List of my favorite cars</p>
       <p>Pick and choose which feed you would to see.</p>
 
+      <br>
+
       <ul id="myTab" class="nav nav-tabs nav-justified">
-        <li class=""><a href="" data-toggle="tab"><span>Basketball</span></a>
+        <li class=""><button class="btn btn-primary">Ferrai</button>
         </li>
-        <li class=""><a href="" data-toggle="tab"><span>Maserati</span></a>
+        <li class=""><button class="btn btn-primary">Maserati</button>
         </li>
-        <li class=""><a href="" data-toggle="tab"><span>Chess</span></a>
+        <li class=""><button class="btn btn-primary">Lambo</button>
         </li>
-        <li class=""><a href="" data-toggle="tab"><span>Mansions</span></a>
+        <li class=""><button class="btn btn-primary">Audi</button>
         </li>
       </ul>
 
       <br>
+      <br>
 
-      <ul class="list-inline">
-        <li><img class="img-thumbnail" width="150px" src="images/watch.jpeg" alt="" /></li>
-        <li><img class="img-thumbnail" width="150px" src="images/watch.jpeg" alt="" /></li>
-        <li><img class="img-thumbnail" width="150px" src="images/watch.jpeg" alt="" /></li>
+      <div id="flickr_feed">
 
-        <li><img class="img-thumbnail" width="150px" src="images/watch.jpeg" alt="" /></li>
-        <li><img class="img-thumbnail" width="150px" src="images/watch.jpeg" alt="" /></li>
-        <li><img class="img-thumbnail" width="150px" src="images/watch.jpeg" alt="" /></li>
+      </div>
 
-        <li><img class="img-thumbnail" width="150px" src="images/watch.jpeg" alt="" /></li>
-      </ul>
+
     </div>
 
   </body>
